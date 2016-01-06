@@ -1,0 +1,10 @@
+﻿ Simple Calculator:
+<input ng-model="home.input1" type="number" />
+<input ng-model="home.input2" type="number" />
+    =
+<input value="{{home.totalAdd}}{{home.totalSubtract}}{{home.totalMultiply}}{{home.totalDivide}}" disabled />
+<br />
+<input type="button" value="+" ng-click="home.addNumbers()" /><br />
+<input type="button" value="-" ng-click="home.subNumbers()" /><br />
+<input type="button" value="x" ng-click="home.multNumbers()" /><br />
+<input type="button" value="/" ng-click="home.divNumbers()" /><br />

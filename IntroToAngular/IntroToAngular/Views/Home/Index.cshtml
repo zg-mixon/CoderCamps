@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="IntroToAngular">
+<head>
+    @Styles.Render("~/Content/css")
+    <title></title>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/ngApp/app.js"></script>
+    <script src="~/ngApp/controllers/details.js"></script>
+    <script src="~/ngApp/controllers/home.js"></script>
+    <script src="~/ngApp/controllers/list.js"></script>
+    
+</head>
+
+<body>
+    <div class="container"><ng-view></ng-view></div>
+    @*Simple Calculator:
+    <input ng-model="home.input1" type="number" />
+    <input ng-model="home.input2" type="number" />
+    =
+    <input value="{{home.totalAdd}}{{home.totalSubtract}}{{home.totalMultiply}}{{home.totalDivide}}" disabled />
+    <br />
+    <input type="button" value="+" ng-click="home.addNumbers()" /><br />
+    <input type="button" value="-" ng-click="home.subNumbers()" /><br />
+    <input type="button" value="x" ng-click="home.multNumbers()" /><br />
+    <input type="button" value="/" ng-click="home.divNumbers()" /><br />*@
+</body>
+</html>
+
+
+
+
